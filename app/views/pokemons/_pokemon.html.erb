@@ -1,0 +1,8 @@
+
+<% if display_link %>
+	<h2><%= link_to pokemon.name, pokemon_path(pokemon) %></h2>
+	<p><%= pokemon.location %></p>
+<% else %>
+	<h2><%= pokemon.name %></h2>
+	<p><%= pokemon.location %></p>
+<% end %>
