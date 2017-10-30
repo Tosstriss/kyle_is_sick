@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+h1,h2{
+	font: 100%;
+	color:#932353;
+}
+p{
+	font: 200%;
+	color:#332341;
+}
+a:link, a:visted{
+	color:#758442;
+}
+ul{
+	list-style: none;
+}
